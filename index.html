@@ -376,9 +376,9 @@ const card = document.createElement('div');
 card.className = 'person-card';
 
 card.innerHTML = `
-<img src="fotos/${fotoNum}.jpg"
+<img src="./${fotoNum}.jpg"
 onerror="this.onerror=null;
-this.src='fotos/${fotoNum}.jpeg';
+this.src='./${fotoNum}.jpeg';
 this.onerror=function(){
 this.onerror=null;
 this.src='./${fotoNum}.png';
