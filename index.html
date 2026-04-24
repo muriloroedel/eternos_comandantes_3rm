@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Galeria de Eternos Comandantes - 3ª RM</title>
-<link rel="shortcut icon" href="./fotos/simbolo3rm.png" type="image/x-icon">
+<link rel="shortcut icon" href="./simbolo3rm.png" type="image/x-icon">
 
 <style>
 :root{
@@ -305,7 +305,7 @@ border:1px solid #eee;
 
 <div class="header-content">
 
-<img src="fotos/simbolo3rm.png" class="header-logo">
+<img src="./simbolo3rm.png" class="header-logo">
 
 <div class="header-title">
 <h1>Galeria de Eternos Comandantes</h1>
@@ -381,7 +381,7 @@ onerror="this.onerror=null;
 this.src='fotos/${fotoNum}.jpeg';
 this.onerror=function(){
 this.onerror=null;
-this.src='./fotos/${fotoNum}.png';
+this.src='./${fotoNum}.png';
 }"
 onclick="openModal(${index})">
 <div class="info">
@@ -419,9 +419,9 @@ img.src = `fotos/${num}.jpg`;
 img.onerror = function(){
 img.onerror = function(){
 img.onerror = null;
-img.src = `fotos/${num}.png`;
+img.src = `./${num}.png`;
 }
-img.src = `fotos/${num}.jpeg`;
+img.src = `./${num}.jpeg`;
 }
 }
 
